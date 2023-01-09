@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(250, 239, 246);
+}
+#canvas{
+    background-color: rgb(252, 252, 225);
+    border:3px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#title{
+    text-align:center;
+    font-size: 20pt;
+    color:rgb(194, 103, 118);
+    font-family: monospace;
+    font-weight: bolder;
+    text-decoration-line: underline rgb(134, 57, 70);
+}
+#pageTitle{
+    background-color: rgb(239, 216, 220);
+}
+#tools{
+    text-align:center;
+    font-size:13pt;
+    color:rgb(194, 103, 118);
+    font-family: monospace;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+#chooseShape{
+    margin-left: 300px;
+    color:rgb(194, 103, 118);
+    width: fit-content;
+    height: fit-content;
+    float: left;
+}
+#shapes{
+    text-align:center;
+    font-size:13pt;
+    font-family: monospace;
+    background-color:rgb(251, 224, 241) ;
+}
+
+#chooseMethod{
+    margin-right: 300px;
+    color:rgb(194, 103, 118);
+    width: fit-content;
+    height: fit-content;
+    float:right;
+}
+#method{
+    text-align:center;
+    font-size:13pt;
+    font-family: monospace;
+    background-color:rgb(251, 224, 241) ;
+}
+
+
+#buttons{
+    position: absolute;
+    left:40%;
+    display:flex;
+    
+}
+#saveBtn{
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    display:flex;
+    font-family: monospace;
+    background-color:rgb(165, 87, 100);
+    color:white;
+}
+#refreshBtn{
+    margin-top: 10px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    display:flex;
+    font-family: monospace;
+    background-color:rgb(165, 87, 100);
+    color:white;
+}
+

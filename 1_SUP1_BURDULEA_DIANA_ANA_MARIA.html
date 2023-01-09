@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="1_SUP1_BURDULEA_DIANA_ANA_MARIA.css"/>
+    <title>Multimedia - Desenare Canvas</title>
+</head>
+<body>
+    <div id="pageTitle">
+        <p id="title">Drawing shapes</p>
+        </div>
+        <div id="tools">
+            <p>Choose your tool</p>
+            <div id="chooseShape">
+                <p id="shapes">Shapes</p>
+                <input type="image" src="media/line.png" class="line" value="line" width="60px" height="60px" title="line" OnClick="clickedLine()">
+                <input type="image" src="media/circle.png" class="circle" value="circle" width="60px" height="60px" title="circle">
+            </div>
+            <div id="chooseMethod">
+                <p id="method">Method</p>
+                <input type="image" src="media/stroke.png" class="stroke" value="stroke" id="stroke" width="60px" height="60px" title="stroke">
+                <input type="color" id="strokeColor">
+                <input type="image" src="media/fill.png" class="fill" value="fill" id="fill" width="60px" height="60px" title="fill">
+                <input type="color" id="fillColor">
+            </div>
+        </div>
+    <div id="container">
+        <canvas id="canvas" width="1200" height="800" title="canvas"></canvas>
+        <div id="buttons">
+            <button id="saveBtn" value="Save">Save Canvas</button>
+            <button id="refreshBtn" value="Refresh">Refresh Canvas</button>
+        </div>
+        
+    </div>
+
+    <script src="1_SUP1_BURDULEA_DIANA_ANA_MARIA.js"></script>
+</body>
+</html>
